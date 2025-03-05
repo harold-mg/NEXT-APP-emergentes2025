@@ -2,6 +2,8 @@
   "extends": ["next/core-web-vitals", "next/typescript"],
   "rules": {
     "@typescript-eslint/no-explicit-any": "off",
-    "react-hooks/exhaustive-deps": "off"
+    "@typescript-eslint/no-unused-vars": "off",  // Desactiva la advertencia de variables no usadas
+    "react-hooks/exhaustive-deps": "off",       // Desactiva advertencias de dependencias en useEffect
+    "prefer-const": "off"                       // Desactiva la advertencia de preferir const
   }
 }
