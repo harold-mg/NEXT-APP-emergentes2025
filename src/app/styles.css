@@ -1,0 +1,21 @@
+/* styles.css */
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .gradient-background {
+    display: flex;
+    width: 100%;
+    background: linear-gradient(45deg, #9c4f96, #ff5e99, #964dbe, #d639c2);
+    background-size: 300% 300%;
+    animation: gradientAnimation 10s ease infinite;
+  }
+  
